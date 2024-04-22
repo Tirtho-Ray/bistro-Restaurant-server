@@ -16,7 +16,9 @@ const port = process.env.PORT || 5000;
 //   })
 // );
 app.use(cors({
-  origin: ["http://localhost:5173",
+  origin: [
+    "http://localhost:5173"
+    ,
  ' https://bistro-restaurant-client.vercel.app/'
 ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
