@@ -19,7 +19,7 @@ app.use(cors({
   origin: [
     "http://localhost:5173"
     ,
- ' https://bistro-restaurant-client.vercel.app/'
+ 'https://bistro-restaurant-client.vercel.app/'
 ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
